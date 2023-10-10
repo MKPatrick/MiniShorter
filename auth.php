@@ -10,8 +10,8 @@ function is_authenticated() {
     // You can add your authentication logic here.
     // For example, check the credentials against a database or a predefined list.
 
-    $valid_username = 'your_username';
-    $valid_password = 'your_password';
+   global $valid_username;
+   global $valid_password;
 
     if ($_SERVER['PHP_AUTH_USER'] === $valid_username && $_SERVER['PHP_AUTH_PW'] === $valid_password) {
         return true;
