@@ -13,7 +13,7 @@ require_once('numberletter.php');
 $mysqli = new mysqli($dbHost,$dbUser,$dbPW,$dbName);
 $id=letterToNumber($_GET['i']);
 // SQL query to select everything from the table
-$sql = "Select Target from Links where ID=" . $id ;
+$sql = "Select Target from links where ID=" . $id ;
 
 // Check connection
 if ($mysqli -> connect_errno) {

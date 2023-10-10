@@ -14,7 +14,7 @@ echo ($_POST["target"]);
 
 $mysqli = new mysqli($dbHost,$dbUser,$dbPW,$dbName);
 // SQL query to select everything from the table
-$sql = "Insert into Links (Target) VALUES ('" . $_POST["target"] . "');";
+$sql = "Insert into links (Target) VALUES ('" . $_POST["target"] . "');";
 
 // Check connection
 if ($mysqli -> connect_errno) {
