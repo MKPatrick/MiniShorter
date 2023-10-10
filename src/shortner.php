@@ -28,7 +28,7 @@ require_authentication();
 
 
 <div class="container text-center">
-<a  href="/Dashboard.php"type="button" class="text-center btn btn-primary mt-3">Dashboard 🐱‍👤</a>
+<a  href="/dashboard.php"type="button" class="text-center btn btn-primary mt-3">Dashboard 🐱‍👤</a>
 
 
   <div class="card">

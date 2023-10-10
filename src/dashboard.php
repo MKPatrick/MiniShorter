@@ -44,7 +44,7 @@ if ($mysqli -> connect_errno) {
 }
 
 // SQL query to select everything from the table
-$sql = "Select links.ID,links.Target as name, Count(linkhistory.ID) as CNT FROM links LEFT JOIN linkhistory ON links.ID = linkhistory.LinkID GROUP by(links.Target,links.ID) order by links.ID desc;";
+$sql = "Select links.ID,links.Target as name, Count(linkhistory.ID) as CNT FROM links LEFT JOIN linkhistory ON links.ID = linkhistory.LinkID GROUP by links.Target,links.ID order by links.ID desc;";
 
 // Execute the query
 $result = $mysqli->query($sql);

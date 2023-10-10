@@ -31,7 +31,7 @@ $target=$row["Target"];
 } 
 $mysqli->close();
 
-$sqInsert = "Insert into LinkHistory (LinkID,IP) VALUES(".$id . ",'".$_SERVER['REMOTE_ADDR'] ."');"  ;
+$sqInsert = "Insert into linkhistory (LinkID,IP) VALUES(".$id . ",'".$_SERVER['REMOTE_ADDR'] ."');"  ;
 $mysqlinsert = new mysqli($dbHost,$dbUser,$dbPW,$dbName);
 $result = $mysqlinsert->query($sqInsert);
 header("Location: ". $target);
