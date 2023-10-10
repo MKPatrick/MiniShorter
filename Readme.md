@@ -4,17 +4,17 @@
 ## UI
 
 ### Create Link
-![Alt Text](img/target.png)
+![Alt Text](img/target.PNG)
 
 ### Dashboard
-![Alt Text](img/dashboard.png)
+![Alt Text](img/dashboard.PNG)
 
 ### Dashboard
-![Alt Text](img/stats.png)
+![Alt Text](img/stats.PNG)
 
 
 ### Auto Config first start
-![Alt Text](img/Config.png)
+![Alt Text](img/Config.PNG)
 
 
 ## Install
